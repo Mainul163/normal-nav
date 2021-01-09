@@ -1,0 +1,38 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+nav{
+    height: 50px;
+    background-color: grey;
+}
+nav li{
+    list-style: none;
+    padding:10px;
+    
+    font-size: 30px;
+}
+nav li:hover{
+    background-color:honeydew;
+  
+}
+nav a:hover{
+  color: hotpink;
+}
+
+nav a{
+    text-decoration: none;
+}
+/* dropdown menu*/
+nav >ul>li{
+    float: left;
+}
+.dropdown{
+    position: absolute;
+    background-color:aquamarine;
+    padding: 0px;
+    display: none;
+}
+nav>ul>li:hover>ul{
+    display: block;
+}
